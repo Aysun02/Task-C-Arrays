@@ -6,8 +6,8 @@ namespace ConsoleApp11
     {
         static void Main(string[] args)
         {
-            int[] arr1 = { 2, 3, 4, 7 };//2347
-            int[] arr2 = { 3, 2 };//34
+            int[] arr1 = { 2, 3, 4, 7 };
+            int[] arr2 = { 3, 2 };
 
             Console.WriteLine(IsArrayContains(arr1, arr2));
         }
@@ -18,7 +18,7 @@ namespace ConsoleApp11
             {
                 for (int j = 0; j < arr2.Length; j++)
                 {
-                    if  (arr2[j] == arr1[i] && ) 
+                    if  (arr2[j] == arr1[i] ) 
                     {
                         counter++;
                         if (counter == arr2.Length)
